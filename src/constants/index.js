@@ -8,20 +8,11 @@ import {
     html,
     css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
     mongodb,
     git,
-    figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
     mysql,
     mssql
@@ -122,6 +113,19 @@ const technologies = [
 
 const experiences = [
     {
+        title: "IT Support and Record Keeping",
+        company_name: "St David Academy- Mombasa",
+        icon:"",
+        iconBg: "#383E56",
+        date: "May 2021 - Sep 2022",
+        points: [
+            "Technical Support",
+            "Record Keeping",
+            "Microsoft word and excel",
+            "Networking and system management.",
+        ],
+    },
+    {
         title: "Attachment / Apprenticeship",
         company_name: "Herufi Africa",
         icon:"https://media.licdn.com/dms/image/C560BAQH5WDYNq7ck7Q/company-logo_200_200/0/1630592459963/herufi_africa_ltd__logo?e=2147483647&v=beta&t=Gpp1cqZkCpVdOCYZXztS-PYKvAkgJWcw0d3O57RoN6c",
@@ -132,7 +136,8 @@ const experiences = [
             "Collaborating with cross-functional teams and other developers to create high-quality products.",
             "Implementing responsive design and ensuring cross-browser compatibility.",
             "Installing and Maintaining a Point of Sale built on C# using a MSSQL database.",
-            "Computer network configuration and set up."
+            "Computer network configuration and set up.",
+            "Technical support and Point of sale maintainance"
         ],
     },
     {
