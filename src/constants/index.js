@@ -156,13 +156,24 @@ const experiences = [
         company_name: "Plugins Fiber",
         icon: "https://plugins.co.ke/net/logo3.png",
         iconBg: "#383E56",
-        date: "July 2023 - present",
+        date: "July 2023 - may 2024",
         points: [
          "Fiber Optic Splicing and Installation",
          "Network extention and configuration",
          "Sales and customer management"
         ],
     },
+    {
+        title: "Fiber Optic splicer",
+        company_name: "Plugins Fiber",
+        icon: "https://plugins.co.ke/net/logo3.png",
+        iconBg: "#383E56",
+        date: "May 2024 - present",
+        points: [
+         "Fiber Optic Splicing and Installation",
+         "Network extention and configuration",
+        ],
+    }
 ];
 
 const testimonials = [];
