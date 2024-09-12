@@ -4,7 +4,7 @@ import emailjs from '@emailjs/browser';;
 import { staggerContainer } from '../utils/motion';
 import { styles } from '../style';
 import { EarthCanvas } from './canvas';
-import { slideIn } from '../utils/motion';
+import { slideIn,fadeIn, textVariant  } from '../utils/motion';
 
 
 
@@ -68,6 +68,19 @@ const Contact = () => {
       <span className='hash-span ' id='contact'>
         &nbsp;
       </span>
+      <motion.div variants={textVariant()} className=''>
+        <h2 className={styles.sectionSubText}>Professional Experience</h2>
+        <h3>ICT Entrepreneur & Network Solutions Consultant</h3>
+        <p><strong>Self-Employed | 1999 - 2015</strong></p>
+        <motion.p variants={slideIn("right", "tween", 0.2, 1)} className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] '>
+          <ul>
+            <li><strong>Network Setup, Design, and Maintenance (1999 - 2001):</strong> Launched an ICT entrepreneurship venture focusing on providing comprehensive network solutions, including the setup, design, and maintenance of small to medium-sized business networks.</li>
+            <li><strong>Wireless Network Implementation (2001 - 2015):</strong> Deployed PTP (Point-to-Point) wireless networks using DIY antennas and modified radio devices.</li>
+            <li><strong>Network Consulting & Project Management (2001 - 2015):</strong> Provided consulting services for clients on network infrastructure projects, from initial design to final implementation.</li>
+            <li><strong>ISP Setup and Configuration (2010 - 2015):</strong> Consulted on the setup of Internet Service Providers (ISP), including network architecture design, server deployment, bandwidth management, and customer support systems.</li>
+          </ul>
+        </motion.p>
+      </motion.div>
       <div className='xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden'>
         <motion.div variants={slideIn("left", "tween", 0.2, 1)}
           className='flex[0.75] bg-black-100 p-8 rounded-2xl '>
