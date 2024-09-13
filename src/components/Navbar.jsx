@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { styles } from "../style"
 import { navLinks } from '../constants'
-import { logo, menu, close } from "../assets"
+import { menu, close } from "../assets"
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -15,8 +15,8 @@ const Navbar = () => {
           setActive("");
           window.scrollTo(0, 0);
         }}>
-          <img src={logo} alt="logo" height={50} width={50} className='object-contain rounded-full ' />
-          <p className='text-white text-[18px] font-bold cursor-pointer flex'>Bildad Owuor <span className='sm:block hidden '> &nbsp;| FullStack developer</span></p>
+          <img src="" alt="logo" height={50} width={50} className='object-contain rounded-full ' />
+          <p className='text-white text-[18px] font-bold cursor-pointer flex'>Kiplabat Kosgei <span className='sm:block hidden '> &nbsp;</span></p>
         </Link>
         <ul className='list-none hidden sm:flex flex-row gap-10 '>
           {navLinks.map((link) => {
