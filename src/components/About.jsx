@@ -6,6 +6,7 @@ import { styles } from '../style';
 import { services } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 
+
 const ServiceCard = ({ index, title, icon }) => {
   return (
     <Tilt className='xs:w-[250px] w-full'>
@@ -42,11 +43,15 @@ const About = () => {
       <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] '>
         I am an ICT professional with over 20 years of experience in network setups, design, maintenance, Windows Server deployments, VOIP servers, and ISP setups. I began my journey in ICT entrepreneurship in 1999, specializing in network consulting, project design, and implementation.
       </motion.p>
-      <div className='m-20 flex flex-wrap gap-10 '>
-        {services.map((service, index) => {
-          return <ServiceCard key={service.title} index={index} {...service} />
-        })}
+      <div className='m-20 '>
+        <h2 className={`${styles.sectionSubText} text-center p-20`}>Core Competencies</h2>
+        <div className='flex flex-wrap gap-10 '>
+          {services.map((service, index) => {
+            return <ServiceCard key={service.title} index={index} {...service} />
+          })}
+        </div>
       </div>
+
 
     </motion.section>
   )

@@ -69,7 +69,7 @@ const Contact = () => {
         &nbsp;
       </span>
       <motion.div variants={textVariant()} className=''>
-        <h2 className={styles.sectionSubText}>Professional Experience</h2>
+        <h2 className={styles.sectionHeadText}>Professional Experience</h2>
         <h3>ICT Entrepreneur & Network Solutions Consultant</h3>
         <p><strong>Self-Employed | 1999 - 2015</strong></p>
         <motion.p variants={slideIn("right", "tween", 0.2, 1)} className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] '>

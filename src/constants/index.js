@@ -1,7 +1,8 @@
 import {
     mobile,
     backend,
-    web} from "../assets";
+    web
+} from "../assets";
 
 export const navLinks = [
     {
@@ -17,29 +18,46 @@ export const navLinks = [
         title: "Experience",
     },
     {
-        id:"contact",
-        title:"Contact"
+        id: "contact",
+        title: "Contact"
     }
 ];
 
 const services = [
     {
-        title: " ICT entrepreneurship",
+        title: "Network Design and Implementation",
         icon: web,
     },
     {
-        title: "network setups, design and maintenance",
+        title: "VOIP Server Configuration",
         icon: mobile,
     },
     {
         title: "windows Server deployments",
         icon: backend,
     },
+    {
+        title: "Wireless Network Setup (PTP Networks)",
+        icon: web,
+    },
+    {
+        title: "ISP Setup and Consulting",
+        icon: mobile,
+    }, {
+        title: "Network Security and Troubleshooting",
+        icon: mobile,
+    },
+    {
+        title: "Technical Project Management",
+        icon: mobile,
+    }, {
+        title: "Client and Stakeholder Relations",
+        icon: backend,
+    }
 ];
-
 
 
 const testimonials = [];
 
 
-export { services,  testimonials, };
+export { services, testimonials, };
