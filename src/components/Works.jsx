@@ -48,7 +48,7 @@ const ProjectCard = ({ index, name, description, tags,live_link,  image, source_
 
 
 
-const Works = () => {
+const Projects = () => {
   return (
     <motion.section
     variants={staggerContainer()}
@@ -79,4 +79,4 @@ const Works = () => {
   )
 }
 
-export default Works 
+export default Projects 
