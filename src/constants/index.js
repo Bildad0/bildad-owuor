@@ -12,7 +12,6 @@ import {
     mysql} from "../assets";
 
 import britumone from "../assets/pictures/britum 1.jpeg";
-import roysambuone from "../assets/pictures/roysambu 1.jpeg";
 import client from "../assets/pictures/client.jpeg";
 
 
@@ -232,11 +231,6 @@ const gallery = [
     { 
         title: "", 
         imageLink: client, 
-        desc: "" 
-    },
-    { 
-        title: "", 
-        imageLink: roysambuone, 
         desc: "" 
     },
 ];
