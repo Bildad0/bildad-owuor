@@ -6,17 +6,15 @@ import {
     javascript,
     typescript,
     html,
-    css,
     reactjs,
     tailwind,
     nodejs,
-    mongodb,
-    git,
-    docker,
-    threejs,
-    mysql,
-    mssql
-} from "../assets";
+    mysql} from "../assets";
+
+import britumone from "../assets/pictures/britum 1.jpeg";
+import roysambuone from "../assets/pictures/roysambu 1.jpeg";
+import client from "../assets/pictures/client.jpeg";
+
 
 export const navLinks = [
     {
@@ -24,8 +22,8 @@ export const navLinks = [
         title: "About",
     },
     {
-        id:"experience",
-        title:"Experiences"
+        id: "experience",
+        title: "Experiences"
     },
     {
         id: "work",
@@ -55,8 +53,8 @@ const services = [
         icon: creator,
     },
     {
-        title:"API intergration",
-        icon:backend,
+        title: "API intergration",
+        icon: backend,
     }
 ];
 
@@ -64,10 +62,6 @@ const technologies = [
     {
         name: "HTML 5",
         icon: html,
-    },
-    {
-        name: "CSS 3",
-        icon: css,
     },
     {
         name: "JavaScript",
@@ -93,33 +87,14 @@ const technologies = [
         name: "Node JS",
         icon: nodejs,
     },
-    {
-        name: "MongoDB",
-        icon: mongodb,
-    },
-    {
-        name: "Three JS",
-        icon: threejs,
-    },
-    {
-        name: "git",
-        icon: git,
-    },
-    {
-        name: "mssql",
-        icon: mssql,
-    },
-    {
-        name: "docker",
-        icon: docker,
-    },
+
 ];
 
 const experiences = [
     {
         title: "IT Support and Record Keeping",
         company_name: "St David Academy- Mombasa",
-        icon:"",
+        icon: "",
         iconBg: "#383E56",
         date: "May 2021 - Sep 2022",
         points: [
@@ -132,7 +107,7 @@ const experiences = [
     {
         title: "Attachment / Apprenticeship",
         company_name: "Herufi Africa",
-        icon:"https://media.licdn.com/dms/image/C560BAQH5WDYNq7ck7Q/company-logo_200_200/0/1630592459963/herufi_africa_ltd__logo?e=2147483647&v=beta&t=Gpp1cqZkCpVdOCYZXztS-PYKvAkgJWcw0d3O57RoN6c",
+        icon: "https://media.licdn.com/dms/image/C560BAQH5WDYNq7ck7Q/company-logo_200_200/0/1630592459963/herufi_africa_ltd__logo?e=2147483647&v=beta&t=Gpp1cqZkCpVdOCYZXztS-PYKvAkgJWcw0d3O57RoN6c",
         iconBg: "#383E56",
         date: "January 2022 - Dec 2022",
         points: [
@@ -162,9 +137,9 @@ const experiences = [
         iconBg: "#383E56",
         date: "July 2023 - may 2024",
         points: [
-         "Fiber Optic Splicing and Installation",
-         "Network extention and configuration",
-         "Sales and customer management"
+            "Fiber Optic Splicing and Installation",
+            "Network extention and configuration",
+            "Sales and customer management"
         ],
     },
     {
@@ -174,8 +149,8 @@ const experiences = [
         iconBg: "#383E56",
         date: "May 2024 - present",
         points: [
-         "Fiber Optic Splicing and Installation",
-         "Network extention and configuration",
+            "Fiber Optic Splicing and Installation",
+            "Network extention and configuration",
         ],
     }
 ];
@@ -198,7 +173,7 @@ const projects = [
             },
 
         ],
-        live_link:"",
+        live_link: "",
         image: "",
         source_code_link: "https://github.com/Bildad0/Hang-Man-Game",
     },
@@ -220,7 +195,7 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        live_link:"",
+        live_link: "",
         image: "https://github.com/Bildad0/Delivery-App/blob/master/designs/Food-Delivery-App-Ui-Kit-Graphics-21717883-1.jpg",
         source_code_link: "https://github.com/Bildad0/Delivery-App",
     },
@@ -242,10 +217,28 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        live_link:"https://internet-provider-nu.vercel.app/",
+        live_link: "https://internet-provider-nu.vercel.app/",
         image: "",
         source_code_link: "https://github.com/Bildad0/internet-provider",
     },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+const gallery = [
+    { 
+        title: "", 
+        imageLink: britumone, 
+        desc: "" 
+    },
+    { 
+        title: "", 
+        imageLink: client, 
+        desc: "" 
+    },
+    { 
+        title: "", 
+        imageLink: roysambuone, 
+        desc: "" 
+    },
+];
+
+export { services, technologies, experiences, testimonials, projects, gallery };
