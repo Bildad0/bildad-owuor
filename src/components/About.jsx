@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unknown-property */
+// eslint-disable-next-line no-unused-vars
 import React from 'react'
 import { Tilt } from 'react-tilt';
 import { motion } from 'framer-motion';
@@ -6,6 +8,7 @@ import { styles } from '../style';
 import { services } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 
+// eslint-disable-next-line react/prop-types
 const ServiceCard = ({ index, title, icon }) => {
   return (
     <Tilt className='xs:w-[250px] w-full'>
