@@ -16,7 +16,7 @@ const Navbar = () => {
           window.scrollTo(0, 0);
         }}>
           <img src={logo} alt="logo" height={50} width={50} className='object-contain rounded-full ' />
-          <p className='text-white text-[18px] font-bold cursor-pointer flex'>Bildad Owuor <span className='sm:block hidden '> &nbsp;| FullStack developer</span></p>
+          <p className='text-white text-[18px] font-bold cursor-pointer flex'></p>
         </Link>
         <ul className='list-none hidden sm:flex flex-row gap-10 '>
           {navLinks.map((link) => {

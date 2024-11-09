@@ -19,18 +19,24 @@ const Hero = () => {
         </div>
       </div>
       <div className='pt-20 w-content'>
-              <h1 className={`${styles.sectionSubText} pb-10 text-center font-bold underline`}>Gallery</h1>
-              <div className='flex flex-col gap-4 justify-between alig-center sm:flex-col md:flex-row lg:flex-row xl:flex-row sm:justify-center sm:pl-20'>
-                {gallery.map((content, index) => {
-                  return (
-                    <div className="bg-tertiary rounded-2xl sm:w-[300px] w-full h-content" key={index}>
-                      <img className="w-full rounded-md shadow-lg relative h-[400px] " src={content.imageLink} alt="Britum towers" />
-                    </div>
-                  )
+        <h1 className={`${styles.sectionSubText} pb-10 text-center font-bold underline`}>Gallery</h1>
+        <div className='flex flex-col gap-4 justify-between alig-center sm:flex-col md:flex-row lg:flex-row xl:flex-row sm:justify-center sm:pl-20'>
+          {gallery.map((content, index) => {
+            return (
+              <figure className="relative max-w-sm transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0" key={index}>
+                <a href="#">
+                  <img className="rounded-lg" src={content.imageLink} alt="image description" />
+                </a>
+                <figcaption className="absolute px-4 text-lg text-white bottom-6">
+                  <h1 className='font-bold'>{content.title}</h1>
+                  <p>{content.desc}</p>
+                </figcaption>
+              </figure>
+            )
 
-                })}
-              </div>
-            </div>
+          })}
+        </div>
+      </div>
     </section>
   )
 }

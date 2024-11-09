@@ -142,14 +142,14 @@ const experiences = [
         ],
     },
     {
-        title: "Fiber Optic splicer",
+        title: "Lead Technician",
         company_name: "Plugins Fiber",
         icon: "https://plugins.co.ke/net/logo3.png",
         iconBg: "#383E56",
         date: "May 2024 - present",
         points: [
-            "Fiber Optic Splicing and Installation",
-            "Network extention and configuration",
+            "Fiber optic support and installation in Tsavo buildings",
+            "Lead technician for roysambu and Fedha branches",
         ],
     }
 ];
