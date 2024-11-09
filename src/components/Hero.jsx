@@ -20,10 +20,10 @@ const Hero = () => {
       </div>
       <div className='pt-20 w-content' id='gallery'>
         <h1 className={`${styles.sectionSubText} pb-10 text-center font-bold underline`}>Gallery</h1>
-        <div className='flex flex-col gap-4 justify-between alig-center sm:flex-col md:flex-row lg:flex-row xl:flex-row sm:justify-center sm:pl-20'>
+        <div className='[&_span]:opacity-0 grid grid-cols-3 place-content-between place-items-center bg-scroll backgroundImage rounded-md p-4'>
           {gallery.map((content, index) => {
             return (
-              <figure className="relative max-w-sm transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 shadow-xl shadow-blue-gray-900/50" key={index}>
+              <figure className="relative max-w-sm transition-all duration-300 h-fit cursor-pointer filter grayscale hover:grayscale-0 shadow-xl shadow-blue-gray-900/50" key={index}>
                 <a href="#gallery">
                   <img className="rounded-lg" src={content.imageLink} alt={`Gallery ${index+1}`} />
                 </a>
