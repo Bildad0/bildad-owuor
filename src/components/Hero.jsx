@@ -10,11 +10,11 @@ const Hero = () => {
           <div className='w-5 h-5 rounded-full bg-[#915eff]' />
           <div className='w-1  ml-2 sm:h-80 h-40 violet-gradient ' />
         </div>
-        <div className='pt-20 flex flex-col sm:flex-col md:flex-row lg:flex-row xl:flex-row'>
+        <div className='pt-20 mt-20 flex flex-col sm:flex-col md:flex-row lg:flex-row xl:flex-row'>
           <div>
-            <h1 className={`${styles.heroHeadText} text-white `}>Hi, I&apos;m Bildad</h1>
-            <p className={`${styles.heroSubText} mt-2 text-white-100`}>I have different IT skills ranging from software
-              development to Networking and database management.</p>
+            <h1 className={`${styles.heroHeadText} text-white `}>Bildad</h1>
+            <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+            A skilled IT personnel, proficient in networking, technical support, and software development.</p>
           </div>
         </div>
       </div>
