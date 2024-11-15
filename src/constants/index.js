@@ -13,7 +13,8 @@ import {
 
 import britumone from "../assets/pictures/britum 1.jpeg";
 import client from "../assets/pictures/client.jpeg";
-import roysambu from "../assets/pictures/roysambu 2.jpeg"
+import roysambu from "../assets/pictures/roysambu 2.jpeg";
+import Me from "../assets/pictures/me.jpeg";
 
 
 export const navLinks = [
@@ -237,6 +238,11 @@ const gallery = [
     { 
         title: "", 
         imageLink: roysambu, 
+        desc: "" 
+    },
+    { 
+        title: "", 
+        imageLink: Me, 
         desc: "" 
     },
 ];
