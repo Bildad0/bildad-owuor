@@ -18,7 +18,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className='pt-20 w-content' id='gallery'>
+      <div className='pt-20 max-w-7xl' id='gallery'>
         <h1 className={`${styles.sectionSubText} pb-10 text-center font-bold underline`}>Gallery</h1>
         <div className='[&_span]:opacity-0 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3  place-content-between place-items-center bg-scroll backgroundImage rounded-md p-2'>
           {gallery.map((content, index) => {
