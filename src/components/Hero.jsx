@@ -10,7 +10,7 @@ const Hero = () => {
           <div className='w-5 h-5 rounded-full bg-[#915eff]' />
           <div className='w-1  ml-2 sm:h-80 h-40 violet-gradient ' />
         </div>
-        <div className='pt-20 mt-20 flex flex-col sm:flex-col md:flex-row lg:flex-row xl:flex-row'>
+        <div className='pt-20  flex flex-col sm:flex-col md:flex-row lg:flex-row xl:flex-row'>
           <div>
             <h1 className={`${styles.heroHeadText} text-white `}>Bildad</h1>
             <p className={`${styles.heroSubText} mt-2 text-white-100`}>
@@ -18,9 +18,9 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className='pt-20 max-w-7xl' id='gallery'>
+      <div className='pt-10  flex-col max-w-7xl mx-auto' id='gallery'>
         <h1 className={`${styles.sectionSubText} pb-10 text-center font-bold underline`}>Gallery</h1>
-        <div className='[&_span]:opacity-0 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3  place-content-between place-items-center bg-scroll backgroundImage rounded-md p-2'>
+        <div className='[&_span]:opacity-0 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3  lg:grid-cols-3  place-content-between place-items-center bg-scroll backgroundImage rounded-md p-2'>
           {gallery.map((content, index) => {
             return (
               <figure className="relative max-w-sm transition-all duration-300 h-fit cursor-pointer filter grayscale hover:grayscale-0 shadow-xl shadow-blue-gray-900/50" key={index}>
