@@ -15,6 +15,10 @@ import britumone from "../assets/pictures/britum 1.jpeg";
 import client from "../assets/pictures/client.jpeg";
 import roysambu from "../assets/pictures/roysambu 2.jpeg";
 import Me from "../assets/pictures/me.jpeg";
+import deliveryapp from "../assets/work/deliveryapp.png";
+import ISP from "../assets/work/isp.png";
+import melwish from "../assets/work/melwish.png";
+import webscrapping from "../assets/work/webscrapping.png";
 
 
 export const navLinks = [
@@ -174,7 +178,7 @@ const projects = [
             },
 
         ],
-        live_link: "",
+        live_link: "https://github.com/Bildad0/Hang-Man-Game",
         image: "",
         source_code_link: "https://github.com/Bildad0/Hang-Man-Game",
     },
@@ -197,7 +201,7 @@ const projects = [
             },
         ],
         live_link: "",
-        image: "https://github.com/Bildad0/Delivery-App/blob/master/designs/Food-Delivery-App-Ui-Kit-Graphics-21717883-1.jpg",
+        image: deliveryapp,
         source_code_link: "https://github.com/Bildad0/Delivery-App",
     },
     {
@@ -219,8 +223,45 @@ const projects = [
             },
         ],
         live_link: "https://internet-provider-nu.vercel.app/",
-        image: "",
+        image: ISP,
         source_code_link: "https://github.com/Bildad0/internet-provider",
+    },
+    {
+        name: "Melwish's Portfolio",
+        description:
+            "James Melwish's website.",
+        tags: [
+            {
+                name: "javascript",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Tailwindcss",
+                color: "green-text-gradient",
+            },
+            {
+                name: "css",
+                color: "pink-text-gradient",
+            },
+        ],
+        live_link: "https://melwish.vercel.app/",
+        image: melwish,
+        source_code_link: "#",
+    },
+    {
+        name: "Web scrapping",
+        description:
+            "A simple webscrapping project",
+        tags: [
+            {
+                name: "Python",
+                color: "blue-text-gradient",
+            },
+
+        ],
+        live_link: "https://github.com/Bildad0/webscrapping",
+        image: webscrapping,
+        source_code_link: "https://github.com/Bildad0/webscrapping",
     },
 ];
 
