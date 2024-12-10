@@ -19,6 +19,7 @@ import deliveryapp from "../assets/work/deliveryapp.png";
 import ISP from "../assets/work/isp.png";
 import melwish from "../assets/work/melwish.png";
 import webscrapping from "../assets/work/webscrapping.png";
+import oshavaa from "../assets/work/oshavaa1.jpg";
 
 
 export const navLinks = [
@@ -232,11 +233,11 @@ const projects = [
             "James Melwish's website.",
         tags: [
             {
-                name: "javascript",
+                name: "html",
                 color: "blue-text-gradient",
             },
             {
-                name: "Tailwindcss",
+                name: "Jquery",
                 color: "green-text-gradient",
             },
             {
@@ -249,19 +250,27 @@ const projects = [
         source_code_link: "#",
     },
     {
-        name: "Web scrapping",
+        name: "Oshavaa",
         description:
-            "A simple webscrapping project",
+            "A laundromat company",
         tags: [
             {
-                name: "Python",
+                name: "Jquery",
                 color: "blue-text-gradient",
+            },
+            {
+                name: "html",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "css",
+                color: "green-text-gradient",
             },
 
         ],
-        live_link: "https://github.com/Bildad0/webscrapping",
-        image: webscrapping,
-        source_code_link: "https://github.com/Bildad0/webscrapping",
+        live_link: "oshavaa.ke",
+        image: oshavaa,
+        source_code_link: "oshavaa.ke",
     },
 ];
 
