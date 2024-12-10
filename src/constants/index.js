@@ -268,7 +268,7 @@ const projects = [
             },
 
         ],
-        live_link: "oshavaa.ke",
+        live_link: "https://oshavaa.ke/",
         image: oshavaa,
         source_code_link: "oshavaa.ke",
     },
